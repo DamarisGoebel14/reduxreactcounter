@@ -1,0 +1,17 @@
+branchName: 'issue-${issue.number}-${issue.title,}-${repository.name,}'
+mode: chatops
+gitSafeReplacementChar: '-'
+silent: true
+autoCloseIssue: true
+branches:
+  - label: enhancement
+    name: develop
+    prefix: feature/
+  - label: bug
+    name: develop
+    prefix: bugfix/
+  - label: documentation
+    name: develop
+    prefix: documentation/
+  - label: question
+    skip: true
