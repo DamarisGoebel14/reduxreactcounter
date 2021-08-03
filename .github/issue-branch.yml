@@ -5,13 +5,13 @@ silent: true
 autoCloseIssue: true
 branches:
   - label: enhancement
-    name: develop
+    name: master
     prefix: feature/
   - label: bug
-    name: develop
+    name: master
     prefix: bugfix/
   - label: documentation
-    name: develop
+    name: master
     prefix: documentation/
   - label: question
     skip: true
